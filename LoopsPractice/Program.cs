@@ -18,8 +18,29 @@ namespace LoopsPractice
             //allows for a repeated chunk of a code
 
             //For Loop
-            //Can be used for both counting and ...
+            //Can be used for both counting and/or ...
             //ITERATING through an array (or other collection type)
+            //looks like this:
+            //for(initializer; condition; updater)
+            //{
+            //      Do something
+            //}
+            //for (int i = 0; i <= 10; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+           
+            //for(int i = 15; i > 0; i--) 
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            for(int i = 50; i <= 100; i++)
+            {
+                Console.WriteLine(i);
+            }
+            
 
         }
     }
