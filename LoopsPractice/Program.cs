@@ -101,34 +101,46 @@ namespace LoopsPractice
             //    do something
             //}
 
-            int[] studentGrades = { 4, 4, 3, 4, 3 };
-            foreach(int grade in studentGrades)
+            //int[] studentGrades = { 4, 4, 3, 4, 3 };
+            //foreach(int grade in studentGrades)
+            //{
+            //    Console.WriteLine(grade);
+            //}
+
+
+            //string[] firstMonths = { "Jan", "Feb", "Mar", "Apr", "May", "Jun" };
+            ////Always start with the keyword foreach
+            //foreach(string month in firstMonths)
+            //{
+            //    Console.WriteLine(month);
+            //}
+            ////foreach loops allow temporary variable to "know" to assign
+            ////itself to each element in the collection (like an array), one at a time
+
+            ////Foreach loop will always go from begginning to end, no matter what
+            ////It counts the number of elements in the collection, and runs that number many times
+
+
+            ////Create an array of 6 musicians (bands or solo artists)
+            ////Using a foreach loop, print each musicains name
+            //string[] nameOfBands = { "NIN", "RHCP", "Linkin Park", "Starset", "BMTH", "Disturbed" };
+            //foreach(string bands in nameOfBands)
+            //{
+            //    Console.WriteLine(bands);
+            //}
+
+
+            //While loop is used when you want a chunk of code to run only if a
+            //conditon is met first.
+            //While something is TRUE, do this thing.
+
+            Console.WriteLine("What is your first name?");
+            string firstName = Console.ReadLine();
+            while (firstName.ToUpper() == "PAIGE")
             {
-                Console.WriteLine(grade);
+                Console.WriteLine("Dude, you are amazing.");
+                break;
             }
-
-
-            string[] firstMonths = { "Jan", "Feb", "Mar", "Apr", "May", "Jun" };
-            //Always start with the keyword foreach
-            foreach(string month in firstMonths)
-            {
-                Console.WriteLine(month);
-            }
-            //foreach loops allow temporary variable to "know" to assign
-            //itself to each element in the collection (like an array), one at a time
-
-            //Foreach loop will always go from begginning to end, no matter what
-            //It counts the number of elements in the collection, and runs that number many times
-
-
-            //Create an array of 6 musicians (bands or solo artists)
-            //Using a foreach loop, print each musicains name
-            string[] nameOfBands = { "NIN", "RHCP", "Linkin Park", "Starset", "BMTH", "Disturbed" };
-            foreach(string bands in nameOfBands)
-            {
-                Console.WriteLine(bands);
-            }
-            
             
             
 
