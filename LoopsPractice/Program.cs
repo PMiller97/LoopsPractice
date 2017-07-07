@@ -277,9 +277,48 @@ namespace LoopsPractice
             //}
 
 
-            //Create an array of your favorite movies.
-            //Print out each movie in the list, unless the move starts with a vowel. Hint: Research.startsWith()
+            ////Create an array of your favorite movies.
+            ////Print out each movie in the list, UNLESS the move starts with a vowel. Hint: Research.startsWith()
+            //string[] favMovies = { "Batman", "Forest Gump", "Anchorman", "Interstellar", "Superbad" };
+            //foreach(string movie in favMovies)
+            //{
+            //    if(movie.StartsWith("A"))
+            //    {
+            //        continue;
+            //    }
+            //    else if(movie.StartsWith("E"))
+            //    {
+            //        continue;
+            //    }
+            //    else if(movie.StartsWith("I"))
+            //    {
+            //        continue;
+            //    }
+            //    else if(movie.StartsWith("O"))
+            //    {
+            //        continue;
+            //    }
+            //    else if(movie.StartsWith("U"))
+            //    {
+            //        continue;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(movie);
+            //    }
+            //}
+
+
+            //Write a console application that asks the user for an integer. 
+            //If that integer is evenly divisible by 3, then write “You Won!”
+            //If it isn’t, write “You Lost.” Keep asking them for a number (looping)until they win.
+           
             
+
+
+
+
+
 
 
 
