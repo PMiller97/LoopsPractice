@@ -309,11 +309,18 @@ namespace LoopsPractice
             //}
 
 
-            //Write a console application that asks the user for an integer. 
-            //If that integer is evenly divisible by 3, then write “You Won!”
-            //If it isn’t, write “You Lost.” Keep asking them for a number (looping)until they win.
-           
-            
+            ////Write a console application that asks the user for an integer. 
+            ////If that integer is evenly divisible by 3, then write “You Won!”
+            ////If it isn’t, write “You Lost.” Keep asking them for a number (looping)until they win.
+            //Console.WriteLine("Please enter a number");
+            //int number = int.Parse(Console.ReadLine());
+            //while(number % 3 != 0)
+            //{
+            //    Console.WriteLine("You Lost! Please enter another number");
+            //    number = int.Parse(Console.ReadLine());
+            //}
+            //Console.WriteLine("You Won!");
+
 
 
 
