@@ -264,6 +264,25 @@ namespace LoopsPractice
             //}
 
 
+            ////Write a program that prints a multiplication table (5 x 5, for example) using a nested loops.
+            //int multNum = 1;
+            //for (int i = 1; i <= 5; i++) //outer loop determines the rows
+            //{
+            //    for (int j = 1; j <= 5; j++) //inner loop determine the columns
+            //    {
+            //        Console.Write(multNum * j + " ");
+            //    }
+            //    multNum += 1;
+            //    Console.WriteLine();
+            //}
+
+
+            //Create an array of your favorite movies.
+            //Print out each movie in the list, unless the move starts with a vowel. Hint: Research.startsWith()
+            
+
+
+
 
 
 
